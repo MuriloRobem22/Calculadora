@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+}
+
+.fundo{
+  background: linear-gradient(320deg,black, rgb(255, 46, 46) 120%);
+  height: 100vh;
+}
+
+.calculadora{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+  padding: 3%;
+  gap: 1rem;
+}
+
+.botoes{
+  height: 3.125rem;
+  width: 3.125rem;
+}
+
+.botaoIgual{
+  height: 6.40rem;
+}
+
+.botaoZero{
+  width: 6.40rem;
+}
+
+.resultados{
+  background-color: aliceblue;
+  height: 1.5rem;
+  width: 100%;
+}
